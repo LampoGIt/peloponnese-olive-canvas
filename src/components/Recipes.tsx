@@ -40,6 +40,24 @@ const Recipes = () => {
           </p>
         </div>
 
+        {/* Olive Grove Hero Image */}
+        <div className="mb-16 relative rounded-2xl overflow-hidden shadow-xl">
+          <img
+            src="/lovable-uploads/765ebf47-912a-4541-aeb7-862e6df62a3a.png"
+            alt="Ancient olive grove pathway"
+            className="w-full h-64 md:h-80 object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-olive-dark/40 to-transparent"></div>
+          <div className="absolute bottom-6 left-6 text-white">
+            <h3 className="text-2xl md:text-3xl font-playfair font-bold mb-2">
+              From Our Ancient Groves
+            </h3>
+            <p className="text-lg opacity-90">
+              Where tradition meets culinary excellence
+            </p>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {recipes.map((recipe, index) => (
             <Card 
