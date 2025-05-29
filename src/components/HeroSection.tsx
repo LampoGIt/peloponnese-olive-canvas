@@ -1,10 +1,13 @@
+
 import { Button } from '@/components/ui/button';
+
 const HeroSection = () => {
-  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return (
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-      backgroundImage: `url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')`
-    }}>
+        backgroundImage: `url('/lovable-uploads/112395df-1e71-4a53-8b25-a84faf4a636b.png')`
+      }}>
         <div className="absolute inset-0 bg-black/40 mx-0 my-0 px-0"></div>
       </div>
 
@@ -36,6 +39,8 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HeroSection;

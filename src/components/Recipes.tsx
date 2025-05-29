@@ -7,21 +7,21 @@ const Recipes = () => {
     {
       title: "Mediterranean Bruschetta",
       description: "Classic toasted bread with fresh tomatoes, basil, and our premium olive oil",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/11961c3a-f662-44f6-8ffc-86b6cafc3c86.png",
       time: "15 min",
       difficulty: "Easy"
     },
     {
       title: "Greek Village Salad",
       description: "Traditional horiatiki with fresh vegetables and olive oil dressing",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/df824700-1d1b-4863-a0f8-3c09f5f0ff57.png",
       time: "10 min",
       difficulty: "Easy"
     },
     {
       title: "Olive Oil Lemon Cake",
       description: "Moist, tender cake featuring olive oil for incredible flavor and texture",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "/lovable-uploads/256d5d55-ab02-4bb3-afa0-4d055f811f50.png",
       time: "45 min",
       difficulty: "Medium"
     }
@@ -40,11 +40,11 @@ const Recipes = () => {
           </p>
         </div>
 
-        {/* Olive Grove Hero Image */}
+        {/* Main Olive Grove Hero Image */}
         <div className="mb-16 relative rounded-2xl overflow-hidden shadow-xl">
           <img
-            src="/lovable-uploads/765ebf47-912a-4541-aeb7-862e6df62a3a.png"
-            alt="Ancient olive grove pathway"
+            src="/lovable-uploads/66194b35-b267-4393-88b5-23f7572a2ba0.png"
+            alt="Peloponnesian olive groves at sunset"
             className="w-full h-64 md:h-80 object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-olive-dark/40 to-transparent"></div>
@@ -55,6 +55,32 @@ const Recipes = () => {
             <p className="text-lg opacity-90">
               Where tradition meets culinary excellence
             </p>
+          </div>
+        </div>
+
+        {/* Secondary Grove Images */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div className="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="/lovable-uploads/1fa5e8db-12bf-4e5c-9f1a-067f07641f4d.png"
+              alt="Aerial view of olive groves"
+              className="w-full h-48 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-olive-dark/30 to-transparent"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <h4 className="text-lg font-playfair font-semibold">Sustainable Farming</h4>
+            </div>
+          </div>
+          <div className="relative rounded-xl overflow-hidden shadow-lg">
+            <img
+              src="/lovable-uploads/7ac640a3-e64a-42ef-a66b-9d191ea098fd.png"
+              alt="Vast olive grove landscape"
+              className="w-full h-48 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-olive-dark/30 to-transparent"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <h4 className="text-lg font-playfair font-semibold">Heritage & Tradition</h4>
+            </div>
           </div>
         </div>
 
